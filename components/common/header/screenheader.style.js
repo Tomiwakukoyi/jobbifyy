@@ -11,6 +11,9 @@ const styles = StyleSheet.create({
     justifyContent: "center",
     alignItems: "center",
   },
+  textLogo: {
+    width: 100,
+  },
   btnImg: (dimension) => ({
     width: dimension,
     height: dimension,

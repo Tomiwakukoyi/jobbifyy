@@ -4,6 +4,15 @@
     "web": {
       "bundler": "metro"
     },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "googleServicesFile": "./GoogleService-Info.plist",
+      "supportsTablet": true
+    },
+    "android": {
+      "googleServicesFile": "google-services.json"
+    },
+    "plugins": ["@react-native-firebase/app"],
     "name": "jobbifyy",
     "slug": "jobbifyy"
   }
